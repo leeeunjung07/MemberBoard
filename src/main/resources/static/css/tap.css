@@ -1,0 +1,45 @@
+/*  모든 요소들은 default 마진, 패딩 제거 */
+*{margin: 0; padding: 0;}
+
+nav{margin-top: 10px; margin-bottom: 20px;}
+
+/* 화면에 너무 붙어 있어서...  */
+body{
+    padding: 30px;
+}
+
+/* header 영역  */
+header{ padding: 5px;}
+
+#hometext{text-align:center;font-size:30pt;}
+
+header a{text-decoration: none; color:#F4786A; font-size:30pt;}
+
+nav ul{
+    list-style: none;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    letter-spacing: .3em;
+    margin-left: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+    text-transform: uppercase;
+}
+
+/* footer영역 */
+footer{
+    clear: both;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1em 0px;
+}
